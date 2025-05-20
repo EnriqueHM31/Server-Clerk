@@ -1,5 +1,8 @@
 import { Router } from 'express';
 import { query } from '../bd.js'; // Asegúrate que bd.js exporta query para pg
+import dotenv from 'dotenv';
+dotenv.config();
+
 
 const router = Router();
 

@@ -1,6 +1,8 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+
+console.log("la base de datos es:", process.env.DATABASE_URL);
 import { Pool } from 'pg';
 
 const pool = new Pool({

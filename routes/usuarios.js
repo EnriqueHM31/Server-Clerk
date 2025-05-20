@@ -1,5 +1,7 @@
 import { Router } from 'express';
 import { query } from '../bd.js'; // Asegúrate que bd.js exporta correctamente la función query
+import dotenv from 'dotenv';
+dotenv.config();
 
 const router = Router();
 
